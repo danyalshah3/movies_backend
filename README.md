@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app should show the list of movies using rails-api.
 
-Things you may want to cover:
+Models should  consist of:
+User:
+1)name
 
-* Ruby version
+Movies:
+1)Title
+2)Duration
+3)Summary
+4)ID
+5)Image
 
-* System dependencies
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Reviews:
