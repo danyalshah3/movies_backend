@@ -10,7 +10,7 @@ Movies:
 1)Title
 2)Duration
 3)Summary
-4)ID
+4)user_id
 5)Image
 
 
