@@ -16,3 +16,6 @@ Movies:
 
 
 Reviews:
+1)Name
+2)Comment
+3)rating
