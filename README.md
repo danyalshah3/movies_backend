@@ -19,3 +19,18 @@ Reviews:
 1)Name
 2)Comment
 3)rating
+
+Create your own api using the seed file.
+Optional: Use serializers to customize the JSON data
+To be able to send a request to your Api, use rack-cors. Inside the gem file add "gem 'rack-cors'" and do bundle install. You also need to go inside the initializers/cors.rb file and uncomment 
+
+<!-- Rails.application.config.middleware.insert_before 0, Rack::Cors do
+  allow do
+    origins 'example.com'
+
+    resource '*',
+      headers: :any,
+      methods: [:get, :post, :put, :patch, :delete, :options, :head]
+  end -->
+
+You should change origins 'example.com' to origins '*' so that it can interact to any origin.
