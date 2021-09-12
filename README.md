@@ -4,7 +4,7 @@ This app should show the list of movies using rails-api.
 
 Models should  consist of:
 User:
-1)name
+1)username
 
 Movies:
 1)Title
@@ -16,8 +16,8 @@ Movies:
 
 
 Reviews:
-1)Name
-2)Comment
+1)user_id
+2)Content
 3)rating
 
 Create your own api using the seed file.
