@@ -6,16 +6,24 @@ class ReviewsController < ApplicationController
         render json: reviews
     end
 
+    def show 
+
+    end
+
     def create
         review = Review.create(review_params)
-        render json: review
+
+            render json: review
+ 
     end
 
 
     private
 
     def review_params
-      params.require(:review).permit(:content, :rating)
+        # byebug
+      params.require(:review).permit(:content, :rating, :movie_id)
+    #   params.permit(:content, :rating, :movie_id)
    
     end
 
