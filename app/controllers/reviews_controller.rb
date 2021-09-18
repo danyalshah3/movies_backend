@@ -22,7 +22,7 @@ class ReviewsController < ApplicationController
 
     def review_params
         # byebug
-      params.require(:review).permit(:content, :rating, :movie_id)
+      params.require(:review).permit(:content, :rating, :movie_id, :user_id)
     #   params.permit(:content, :rating, :movie_id)
    
     end
