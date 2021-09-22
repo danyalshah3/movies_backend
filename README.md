@@ -7,16 +7,16 @@ User:
 1)Username
 
 Movies:
-1)Title
-2)Duration
-3)Summary
-4)Image
+1)Title, 
+2)Duration,
+3)Summary,
+4)Image,
 
 
 
 Reviews:
-1)Content
-2)rating
+1)Content,
+2)rating,
 
 
 Create your own api using the seed file.
@@ -46,7 +46,7 @@ The data can then be loaded with the bin/rails db:seed command (or created along
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Once you are ready you start the server with rails s, if it shows the following that mean your server is running.
-<!-- 
+
 => Booting Puma
 => Rails 6.0.0 application starting in development
 => Run `rails server --help` for more startup options
@@ -55,7 +55,7 @@ Puma starting in single mode...
 * Min threads: 5, max threads: 5
 * Environment: development
 * Listening on tcp://localhost:3000
-Use Ctrl-C to stop -->
+Use Ctrl-C to stop
 
 
 
